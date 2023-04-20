@@ -1,0 +1,34 @@
+# You can override the included template(s) by including variable overrides
+# SAST customization: https://docs.gitlab.com/ee/user/application_security/sast/#customizing-the-sast-settings
+# Secret Detection customization: https://docs.gitlab.com/ee/user/application_security/secret_detection/#customizing-settings
+# Dependency Scanning customization: https://docs.gitlab.com/ee/user/application_security/dependency_scanning/#customizing-the-dependency-scanning-settings
+# Container Scanning customization: https://docs.gitlab.com/ee/user/application_security/container_scanning/#customizing-the-container-scanning-settings
+# Note that environment variables can be set in several places
+# See https://docs.gitlab.com/ee/ci/variables/#cicd-variable-precedence
+
+image: python:latest
+pages:
+  stage: deploy
+  only:
+    - main
+  script:
+    - pip install -Iv mkdocs-material
+    - pip install -Iv mkdocs-glightbox
+    # - pip install -Iv mkdocs-with-pdf==0.9.3
+    # - pip install -Iv mkdocs-minify-plugin==0.6.2
+    # - pip install -Iv mkdocs-extra-sass-plugin==0.1.0
+    # - pip install -Iv livereload==2.6.3
+    # - pip install -Iv mkdocs-roamlinks-plugin==0.2.0 
+    # # - pip install -iV Pygments==2.11.2
+    # # - pip install mkdocs-enumerate-headings-plugin
+    # - pip install -Iv mkdocs-glightbox==0.3.1
+    # - pip install -Iv mkdocs-minify-plugin==0.6.2
+    # - pip install -Iv mkdocs-drawio-file==1.3.0
+    # - pip install -Iv mkdocs-encryptcontent-plugin==2.4.4
+
+    - mkdocs build --site-dir public
+
+    
+  artifacts:
+    paths:
+      - public

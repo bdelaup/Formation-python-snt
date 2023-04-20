@@ -1,0 +1,18 @@
+{
+    "yaml.schemas": {
+      "https://squidfunk.github.io/mkdocs-material/schema.json": "mkdocs.yml"
+    },
+    "cSpell.language": "fr-FR",
+    "cSpell.enableFiletypes": [
+      "!yaml"
+    ], 
+    // The number of spaces a tab is equal to.
+  "editor.tabSize": 4,
+
+// Insert spaces when pressing Tab.
+"editor.insertSpaces": true,
+
+// When opening a file, `editor.tabSize` and `editor.insertSpaces` will be detected based on the file contents.
+  "editor.detectIndentation": true,
+  "list.indentationSize":4
+}

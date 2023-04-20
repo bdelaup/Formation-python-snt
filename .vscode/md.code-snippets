@@ -1,0 +1,21 @@
+{
+
+	"ex_papier": {
+		"scope": "md, markdown",
+		"prefix": "ex_papier",
+		"body": [
+			":pencil2: Exo ${1:id} - ${2:Titre}"
+		],
+		"description": "create exo"
+	},
+
+	"ex_ordi": {
+		"scope": "md, markdown",
+		"prefix": "ex_ordi",
+		"body": [
+			":computer: Exo ${1:id} - ${2:Titre}"
+		],
+		"description": "create exo"
+	},
+
+}
