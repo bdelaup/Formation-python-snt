@@ -22,6 +22,7 @@ theme:
       - navigation.tabs
       - navigation.top
       - navigation.sections
+      - content.code.copy
       
 
     # logo: site-img/nsi_light.png
@@ -50,6 +51,14 @@ theme:
 nav:
 
   - Programme : index.md
+  - Python : 
+    - python_generalite.md
+    - python_type.md
+    - python_objet.md
+  - Microbit : 
+    - Description HW : mb_description.md
+    - Micropython : mb_upy.md
+    - Outils : mb_outils.md
 
   - Remerciements: remerciements.md
 
@@ -57,6 +66,7 @@ extra_css:
     - site-styles/table.css
     - site-styles/admonitions.css
     - site-styles/formatting.css
+    - site-styles/code.css
 
 # extra_javascript:
 #   - https://cdn.jsdelivr.net/gh/rod2ik/cdn@main/mkdocs/javascripts/mkdocs-graphviz.js
