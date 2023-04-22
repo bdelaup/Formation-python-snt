@@ -14,6 +14,7 @@ pages:
   script:
     - pip install -Iv mkdocs-material
     - pip install -Iv mkdocs-glightbox
+    - pip install -Iv install mkdocs-print-site-plugin
     # - pip install -Iv mkdocs-with-pdf==0.9.3
     # - pip install -Iv mkdocs-minify-plugin==0.6.2
     # - pip install -Iv mkdocs-extra-sass-plugin==0.1.0
