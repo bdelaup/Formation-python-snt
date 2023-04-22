@@ -51,7 +51,6 @@ c = a + b
 
 
 
-
 ## La programmation orientée objet
 
 !!! definition "Programmation orienté objet"
