@@ -1,0 +1,36 @@
+@media print, screen{
+
+
+    .md-typeset h1 {
+        background-color :rgb(240, 240, 240); 
+        text-align: center;   
+        color : rgb(0, 0, 0);
+        font-weight: bold;
+    }
+
+    .md-typeset h2  {
+        text-decoration: underline;
+        color : rgb(0, 0, 0);
+        font-weight: bold;
+    }
+
+    .md-typeset h3  {
+        color : rgb(0, 0, 0);
+        text-decoration: underline;
+    }
+
+    .md-typeset ol li, .md-typeset ul li {
+        margin-bottom: 0.0em;
+    }
+
+    p {
+        margin-bottom: 0em;
+        margin-top: 1em;
+    }
+
+    .md-typeset pre, .md-typeset ul {
+        margin-bottom: 1em;
+        margin-top: 0em;
+    }
+}
+

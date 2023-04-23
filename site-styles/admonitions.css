@@ -1,0 +1,81 @@
+
+
+:root {
+    --md-admonition-icon--definition: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 2a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h12m0 2h-5v8l-2.5-2.25L8 12V4H6v16h12V4Z"/></svg>')
+  }
+  .md-typeset .admonition.definition,
+  .md-typeset details.definition {
+    border-color: rgb(194, 58, 16);
+  }
+  .md-typeset .definition > .admonition-title,
+  .md-typeset .definition > summary {
+    background-color: rgba(194, 58, 16, 0.1);
+  }
+  .md-typeset .definition > .admonition-title::before,
+  .md-typeset .definition > summary::before {
+    background-color: rgb(194, 58, 16);
+    -webkit-mask-image: var(--md-admonition-icon--definition);
+            mask-image: var(--md-admonition-icon--definition);
+  }
+
+
+:root {
+  --md-admonition-icon--exemple: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 12c2.5 0 4.5 2 4.5 4.5 0 .88-.25 1.71-.69 2.4l3.08 3.1L21 23.39l-3.12-3.07c-.69.43-1.51.68-2.38.68-2.5 0-4.5-2-4.5-4.5s2-4.5 4.5-4.5m0 2a2.5 2.5 0 0 0-2.5 2.5 2.5 2.5 0 0 0 2.5 2.5 2.5 2.5 0 0 0 2.5-2.5 2.5 2.5 0 0 0-2.5-2.5M13 4v8l-2.5-2.25L8 12V4H6v16h4c.54.81 1.23 1.5 2.03 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v7.81c-.58-.55-1.25-1-2-1.31V4h-5Z"/></svg>')
+}
+.md-typeset .admonition.exemple,
+.md-typeset details.exemple {
+  border-color: rgb(17, 114, 41);
+}
+.md-typeset .exemple > .admonition-title,
+.md-typeset .exemple > summary {
+  background-color: rgba(17, 114, 41, 0.1);
+}
+.md-typeset .exemple > .admonition-title::before,
+.md-typeset .exemple > summary::before {
+  background-color: rgb(17, 114, 41);
+  -webkit-mask-image: var(--md-admonition-icon--exemple);
+          mask-image: var(--md-admonition-icon--exemple);
+}
+
+
+/*   
+  :root {
+    --md-admonition-icon--attention: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14h-2V9h2m0 9h-2v-2h2M1 21h22L12 2 1 21Z"/></svg>'
+  }
+  .md-typeset .admonition.attention,
+  .md-typeset details.attention {
+    border-color: rgb(17, 114, 41);
+  }
+  .md-typeset .attention > .admonition-title,
+  .md-typeset .attention > summary {
+    background-color: rgba(17, 114, 41, 0.1);
+  }
+  .md-typeset .attention > .admonition-title::before,
+  .md-typeset .attention > summary::before {
+    background-color: rgb(17, 114, 41);
+    -webkit-mask-image: var(--md-admonition-icon--attention);
+            mask-image: var(--md-admonition-icon--attention);
+  }
+   */
+
+
+   
+   :root {
+   --md-admonition-icon--methode: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 19a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1c0-.21-.07-.41-.18-.57L13 8.35V4h-2v4.35L5.18 18.43c-.11.16-.18.36-.18.57m1 3a3 3 0 0 1-3-3c0-.6.18-1.16.5-1.63L9 7.81V6a1 1 0 0 1-1-1V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1v1.81l5.5 9.56c.32.47.5 1.03.5 1.63a3 3 0 0 1-3 3H6m7-6 1.34-1.34L16.27 18H7.73l2.66-4.61L13 16m-.5-4a.5.5 0 0 1 .5.5.5.5 0 0 1-.5.5.5.5 0 0 1-.5-.5.5.5 0 0 1 .5-.5Z"/></svg>')
+     }
+   .md-typeset .admonition.methode,
+     .md-typeset details.methode {
+   border-color: rgb(50,200,50);
+   }
+   .md-typeset .methode > .admonition-title,
+   .md-typeset .methode > summary {
+   background-color: rgba(50,200,50, 0.1);
+   }
+   .md-typeset .methode > .admonition-title::before,
+   .md-typeset .methode > summary::before {
+   background-color: rgb(50,200,50);
+   -webkit-mask-image: var(--md-admonition-icon--methode);
+   mask-image: var(--md-admonition-icon--methode);
+   }
+   
+

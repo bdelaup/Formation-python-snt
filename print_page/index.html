@@ -1,0 +1,1212 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://bdelaup.github.io/formation-python-snt/print_page/">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.7">
+    
+    
+      
+        <title>Imprimer ... - Python & Microbit</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ded33207.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../css/print-site-enum-headings1.css">
+    
+      <link rel="stylesheet" href="../css/print-site-enum-headings2.css">
+    
+      <link rel="stylesheet" href="../css/print-site-enum-headings3.css">
+    
+      <link rel="stylesheet" href="../css/print-site-enum-headings4.css">
+    
+      <link rel="stylesheet" href="../css/print-site-enum-headings5.css">
+    
+      <link rel="stylesheet" href="../css/print-site-enum-headings6.css">
+    
+      <link rel="stylesheet" href="../css/print-site.css">
+    
+      <link rel="stylesheet" href="../css/print-site-material.css">
+    
+      <link rel="stylesheet" href="../site-styles/table.css">
+    
+      <link rel="stylesheet" href="../site-styles/admonitions.css">
+    
+      <link rel="stylesheet" href="../site-styles/formatting.css">
+    
+      <link rel="stylesheet" href="../site-styles/code.css">
+    
+    <script>__md_scope=new URL("/formation-python-snt/",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  
+        <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function () {
+            remove_material_navigation();remove_mkdocs_theme_navigation();generate_toc();
+        })
+        </script>
+        </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href=".." title="Python &amp; Microbit" class="md-header__button md-logo" aria-label="Python & Microbit" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Python & Microbit
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Imprimer ...
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Recherche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Onglets" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href=".." class="md-tabs__link">
+      Programme
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../python_generalite/" class="md-tabs__link">
+        Python
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../mb_description.md" class="md-tabs__link">
+        Microbit
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../remerciements/" class="md-tabs__link">
+      Remerciements
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Python &amp; Microbit" class="md-nav__button md-logo" aria-label="Python & Microbit" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Python & Microbit
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Programme
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          Python
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Python
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../python_generalite/" class="md-nav__link">
+        Généralités
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../python_type/" class="md-nav__link">
+        Les types
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../python_objet/" class="md-nav__link">
+        Python et l'objet
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          Microbit
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Microbit
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mb_description.md" class="md-nav__link">
+        Description HW
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mb_upy.md" class="md-nav__link">
+        Micropython
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mb_outils.md" class="md-nav__link">
+        Outils
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../remerciements/" class="md-nav__link">
+        Remerciements
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+
+
+
+
+                  
+
+
+<div id="print-site-page" class="print-site-add-full-url print-site-enumerate-headings print-site-enumerate-figures">
+        <section id="print-site-cover-page">
+            
+<div>
+
+    
+        <h1>Python & Microbit</h1>
+    
+
+</div>
+
+
+<table>
+
+    
+
+    
+
+    
+
+    
+    <tr>
+        <td>Copyright</td>
+        <td><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a> Benoit Delaup</td>
+    </tr>
+    
+
+</table>
+
+
+
+
+
+        </section>
+        
+        <section class="print-page">
+            <div id="print-page-toc" data-toc-depth="6">
+                <nav role='navigation' class='print-page-toc-nav'>
+                <h1 class='print-page-toc-title'>Table des matières</h1>
+                </nav>
+            </div>
+        </section>
+        <section class="print-page" id="index"><!-- ---
+# hide:
+#   - navigation
+#   - toc
+--- -->
+
+<h1 id="index-programme-formation">Programme formation<a class="headerlink" href="#index-programme-formation" title="Permanent link">&para;</a></h1>
+<ol>
+<li>Python<ol>
+<li>Description</li>
+<li>Types en python<ol>
+<li>Types de base  </li>
+<li>Types construit</li>
+</ol>
+</li>
+<li>Python et l'objet<ol>
+<li>Classe</li>
+<li>Héritage</li>
+<li>Polymorphisme</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Microbit<ol>
+<li>Description hardware</li>
+<li>Python &amp; Micropython</li>
+<li>EDI</li>
+</ol>
+</li>
+<li>Activités<ol>
+<li>unet<ol>
+<li>Client / Server</li>
+<li>DNS</li>
+<li>MQTT</li>
+</ol>
+</li>
+<li>Pandas</li>
+<li>Follium</li>
+<li>Photo</li>
+</ol>
+</li>
+</ol></section>
+                        <h1 class='nav-section-title' id='section-python'>
+                            Python <a class='headerlink' href='#section-python' title='Permanent link'>↵</a>
+                        </h1>
+                        <section class="print-page" id="python_generalite"><h1 id="python_generalite-generalites">Généralités<a class="headerlink" href="#python_generalite-generalites" title="Permanent link">&para;</a></h1>
+<h2 id="python_generalite-quest-python">Qu'est Python<a class="headerlink" href="#python_generalite-quest-python" title="Permanent link">&para;</a></h2>
+<p>Python<sup id="fnref:1"><a class="footnote-ref" href="#python_generalite-fn:1">3</a></sup> est un langage de programmation <strong>interprété</strong>, <strong>multi-paradigme</strong> et <strong>multiplate-forme</strong>. Il favorise la programmation impérative structurée, fonctionnelle et orientée objet. Il est doté d'un typage dynamique fort, d'une gestion automatique de la mémoire par ramasse-miettes et d'un système de gestion d'exceptions.</p>
+<p>Aujourd'hui, python est soutenue par <em>Python Software Fondation</em>, PSF. Cette organisme se donne pour mission :</p>
+<ul>
+<li>d'éditer les spécifications de python (les fameuse <em>PEP</em>, python enhancement proposal)</li>
+<li>de maintenir une plateforme de gestion de paquet Pypi<sup id="fnref:4"><a class="footnote-ref" href="#python_generalite-fn:4">6</a></sup></li>
+<li>de maintenir une version de python <em>cpython</em></li>
+<li>...</li>
+</ul>
+<p>PSF est présidé par le créateur de python en 1991, Guido Von Rossum.</p>
+<p>Il existe en fait de nombreuses version de python:</p>
+<ul>
+<li><strong>CPython</strong><sup id="fnref:cpython"><a class="footnote-ref" href="#python_generalite-fn:cpython">1</a></sup> : la version <strong>officiel</strong> de référence. L'interpreteur est écrit en c est compilé pour de nombreuse plateforme (OS : windows, linux, Mac, plusieurs version d'unix ; processeur ARM, x86, AIX, AS/400).</li>
+<li><strong>MicroPython</strong><sup id="fnref:6"><a class="footnote-ref" href="#python_generalite-fn:6">2</a></sup> : implémentation légère de python en <code>C</code> à destination des microcontrôleurs (principalement les architectures ESP&copy; et ARM&copy;, mais fonction sous windows et linux).</li>
+<li><strong>Jython</strong> : le code python est compilé en <em>bytecode</em> <code>Java</code> pour être interpréter sur une machine virtuelle Java. Cela permet un grande interopérabilité entre Java et Python.</li>
+<li><strong>IronPython</strong> : implémentation .NET (Microsoft) écrit en <code>C#</code> pour permette l’interopérabilité de code .NET et Python.</li>
+<li><strong>PyPy</strong> : interpréteur python écrit en <code>python</code>.</li>
+</ul>
+<p>Nous ne nous attarderons que sur les deux premières implémentations. Les explications données ci-dessous sont valable pour CPython. Nous mettrons en lumière quelques differences avec MicroPython.</p>
+<h2 id="python_generalite-langage-interprete">Langage interprété<a class="headerlink" href="#python_generalite-langage-interprete" title="Permanent link">&para;</a></h2>
+<h3 id="python_generalite-un-peu-de-vocabulaire">Un peu de vocabulaire<a class="headerlink" href="#python_generalite-un-peu-de-vocabulaire" title="Permanent link">&para;</a></h3>
+<p>En informatique, un interpréteur<sup id="fnref:2"><a class="footnote-ref" href="#python_generalite-fn:2">4</a></sup> est un outil dont la tâche est d'analyser, de traduire et d'exécuter les programmes écrits dans un langage informatique. </p>
+<p>Un interprète se distingue d’un compilateur par le fait qu’il effectue l’analyse et la traduction nécessaires à l'exécution d’un programme donné non pas une fois pour toutes, mais à chaque exécution de ce programme. L’exécution nécessite ainsi de disposer non seulement du programme, mais aussi de l’interpréteur correspondant. </p>
+<p>Python est un langage interprété car le programme python nécessite un programme tiers pour être exécuté. Contrairement à un programme C compilé qui est nativement exécutable par la machine, le code python va subir plusieurs traitements avant de pouvoir être exécuter.</p>
+<p>Lorsque l'<strong>interpréteur python</strong> démarre il propose une invite de commande dans laquelle on peut écrire du code en <strong>langage python</strong>.</p>
+<p><a class="glightbox" href="../img/interpreteur_python.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="REPL" src="../img/interpreteur_python.png" /></a></p>
+<p>Cette fenêtre austère se nomme REPL : Read–eval–print loop <sup id="fnref:3"><a class="footnote-ref" href="#python_generalite-fn:3">5</a></sup>.</p>
+<p>On appelle <strong>script python</strong> un fichier <code>.py</code> contenant des commandes python dont les lignes seront interprétées l'une après l'autre par l'interpréteur.</p>
+<h3 id="python_generalite-interprete-ou-compile">Interprété ou compilé ?<a class="headerlink" href="#python_generalite-interprete-ou-compile" title="Permanent link">&para;</a></h3>
+<p>On parle bien d'interprété puisque le code est ré-évalué à chaque exécution. Cependant, l'évaluation n'est pas immédiate :</p>
+<p><a class="glightbox" href="../img/interpreteur.drawio.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Interpreteur" src="../img/interpreteur.drawio.png" /></a></p>
+<ol>
+<li>Le logiciel <code>python.exe</code> est lancer et le programme script.py lui est transmis en exécutant <code>python fichier.py</code></li>
+<li><code>python.exe</code> analyse <strong>script.py</strong> pour en vérifier la syntaxe</li>
+<li><code>python.exe</code> compile <strong>script.py</strong> en langage de bas niveau indépendant de la plateforme appelé <em>bytecode</em>. Le fichier créé s'appelle <strong>script.pyc</strong>. Le <em>bytecode</em> ressemble à un code assembleur.</li>
+<li><code>python.exe</code> active ensuite une machine virtuel qui va faire exécuter à l'ordinateur les ligne du fichier <code>script.pyc</code> instruction par instruction en utilisant les bibliothèques et module de l'environnement python. </li>
+<li>Comme pour n'importe quel programme, lorsque la machine virtuelle à besoin d'accéder à des périphériques (clavier, écran, souris, carte réseau), d'allouer de la mémoire, etc...  <code>python.exe</code> fait des appels système au système d'exploitation pour réalisé l'action.</li>
+</ol>
+<p>Voici ce à quoi ressemble le bytecode Python :</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="python_generalite-__tabbed_1_1" name="python_generalite-__tabbed_1" type="radio" /><input id="python_generalite-__tabbed_1_2" name="python_generalite-__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="python_generalite-__tabbed_1_1">Python</label><label for="python_generalite-__tabbed_1_2">Bytecode</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#python_generalite-__codelineno-0-1"></a><span class="o">&gt;&gt;&gt;</span> <span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#python_generalite-__codelineno-0-2"></a><span class="o">...</span>     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello World!&quot;</span><span class="p">)</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#python_generalite-__codelineno-1-1"></a><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">dis</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#python_generalite-__codelineno-1-2"></a><span class="o">&gt;&gt;&gt;</span> <span class="n">dis</span><span class="o">.</span><span class="n">dis</span><span class="p">(</span><span class="n">hello</span><span class="p">)</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#python_generalite-__codelineno-1-3"></a><span class="mi">2</span>           <span class="mi">0</span> <span class="n">LOAD_GLOBAL</span>              <span class="mi">0</span> <span class="p">(</span><span class="nb">print</span><span class="p">)</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#python_generalite-__codelineno-1-4"></a>            <span class="mi">2</span> <span class="n">LOAD_CONST</span>               <span class="mi">1</span> <span class="p">(</span><span class="s1">&#39;Hello World!&#39;</span><span class="p">)</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#python_generalite-__codelineno-1-5"></a>            <span class="mi">4</span> <span class="n">CALL_FUNCTION</span>            <span class="mi">1</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#python_generalite-__codelineno-1-6"></a>            <span class="mi">6</span> <span class="n">POP_TOP</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#python_generalite-__codelineno-1-7"></a>            <span class="mi">8</span> <span class="n">LOAD_CONST</span>               <span class="mi">0</span> <span class="p">(</span><span class="kc">None</span><span class="p">)</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#python_generalite-__codelineno-1-8"></a>            <span class="mi">10</span> <span class="n">RETURN_VALUE</span>
+</code></pre></div>
+</div>
+</div>
+</div>
+<h3 id="python_generalite-micropython-dans-tout-ca">MicroPython dans tout ça ?<a class="headerlink" href="#python_generalite-micropython-dans-tout-ca" title="Permanent link">&para;</a></h3>
+<p>L'implémentation MicroPython correspond à la version 3.5 de CPython (contre 3.11 pour la version actuelle).</p>
+<p>MicroPython porte l'essentielles des fonctionnalité de python. Même si certaines interface de programmation ont été simplifiées et que l'implémentation des fonctions est simplifié, le résultat est étonnamment complet, léger et performant.</p>
+<p><a class="glightbox" href="../img/interpreteur_mpy.drawio.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Interpreteur" src="../img/interpreteur_mpy.drawio.png" /></a></p>
+<p>En ce qui concerne MicroPython, le principe d'interprétation du code est le similaire. Apportons quelques compléments:</p>
+<ul>
+<li>Sur un microcontrôleur ou est installé MicroPython, c'est lui qui fait office de <strong>système d'exploitation</strong> :<ul>
+<li><strong>Abstrait le matériel</strong> pour offrir une interface de programmation identique quelque soit la plateforme</li>
+<li>Gère la <strong>mémoire</strong><sup id="fnref:memoire"><a class="footnote-ref" href="#python_generalite-fn:memoire">7</a></sup></li>
+<li>Gère les <strong>tâches</strong> et le multitâche dans une certaine mesure. </li>
+</ul>
+</li>
+<li>MicroPython n'est "rien d'autre" qu'un <strong>programme écrit en </strong><code>C</code> compilé pour s'exécuter sur le microcontrôleur.</li>
+<li><strong>MicroPython</strong> est stocker en mémoire de masse, souvent la mémoire <strong>flash</strong></li>
+<li>Les fichier <code>.py</code> sont stocker en mémoire <strong>flash</strong></li>
+<li>Les fichier <code>.mpy</code> ne sont pas stocker et compiler à chaque redémarrage du système quand on fait appel à la directive <code>import</code>. Le <strong><em>bytecode</em> est stocké en RAM</strong> sur certaines plateforme il est possible de précompilé les fichier .py en .pyc à l'aide de <code>mpy-tool.py</code><sup id="fnref:mpy-tools"><a class="footnote-ref" href="#python_generalite-fn:mpy-tools">9</a></sup> ou <code>mpy_cross</code><sup id="fnref:mpy_cross"><a class="footnote-ref" href="#python_generalite-fn:mpy_cross">8</a></sup></li>
+<li>Micropython est <strong>modulaire</strong> : à la compilation on peut choisir les modules qui seront disponible.</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">A propos du multitâche</p>
+<p>A propos de la gestion des tâche il n'est pour l'instant pas possible d'utiliser un ordonnanceur préemptif mais il est possible d'utiliser une ordonnanceur collaboratif avec la bibliothèque <code>asyncio</code>, de faire des calculs parallèle sur les microcontrôleurs multi-coeur avec la bibliothèque <code>_thread</code>, ou de gérer des routines d'interruption (détection de front sur les broche, timers)</p>
+</div>
+<h2 id="python_generalite-langage-multi-paradigme">Langage multi-paradigme<a class="headerlink" href="#python_generalite-langage-multi-paradigme" title="Permanent link">&para;</a></h2>
+<p>Python est dit multi-paradigme. Un paradigme en programmation est une façon de décrire le comportement d'un programme.</p>
+<p>On parle de programmation :</p>
+<ul>
+<li><strong>Impérative</strong> : permet des approches de programmation impérative (séquence, affectation, branchement conditionnel <em>si</em>, branchement <em>goto</em>, boucle)</li>
+<li><strong>Fonctionnelle</strong> : la programmation consiste à déclarer des fonctions et leurs conditions d'exécution. L'environnement d'exécution se charge de constituer la pile d'appel en "branchant" les valeurs retournée par les fonctions sur les paramètre d'entrée d'autres fonctions. La programmation fonctionnelle abouti à des programmes sans état, il ne peut pas exister de variable partagée à l'extérieur d'une fonction. </li>
+<li><strong>Orienté objet</strong> : la programmation orienté objet fait de l'objet l'entité de base. Un objet possède un état intrinsèque contenu dans ses attribut et des méthodes que l'on peut appeler pour que l'objet opère des actions sur ses propres attribut, modifiant ainsi l'état d'exécution du programme.</li>
+</ul>
+<h2 id="python_generalite-langage-multi-plateformes">Langage multi-plateformes<a class="headerlink" href="#python_generalite-langage-multi-plateformes" title="Permanent link">&para;</a></h2>
+<div class="footnote">
+<hr />
+<ol>
+<li id="python_generalite-fn:cpython">
+<p><a href="https://www.python.org/">https://www.python.org/ </a>&#160;<a class="footnote-backref" href="#python_generalite-fnref:cpython" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="python_generalite-fn:6">
+<p><a href="https://micropython.org/">https://micropython.org/ </a>&#160;<a class="footnote-backref" href="#python_generalite-fnref:6" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="python_generalite-fn:1">
+<p><a href="https://fr.wikipedia.org/wiki/Python_(langage)"> https://fr.wikipedia.org/wiki/Python_(langage) </a>&#160;<a class="footnote-backref" href="#python_generalite-fnref:1" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="python_generalite-fn:2">
+<p><a href="https://fr.wikipedia.org/wiki/Interpr%C3%A8te_(informatique)"> https://fr.wikipedia.org/wiki/Interpr%C3%A8te_(informatique)</a>&#160;<a class="footnote-backref" href="#python_generalite-fnref:2" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+<li id="python_generalite-fn:3">
+<p><a href="https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop"> https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop</a>&#160;<a class="footnote-backref" href="#python_generalite-fnref:3" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+<li id="python_generalite-fn:4">
+<p><a href="https://pypi.org/"> https://pypi.org/</a>&#160;<a class="footnote-backref" href="#python_generalite-fnref:4" title="Jump back to footnote 6 in the text">&#8617;</a></p>
+</li>
+<li id="python_generalite-fn:memoire">
+<p><a href="#python_type-la-gestion-de-la-memoire-par-python">La gestion de la mémoire par python</a>&#160;<a class="footnote-backref" href="#python_generalite-fnref:memoire" title="Jump back to footnote 7 in the text">&#8617;</a></p>
+</li>
+<li id="python_generalite-fn:mpy_cross">
+<p><a href="https://pypi.org/project/mpy-cross/">Compilateur MicroPython multi-plateformes</a>&#160;<a class="footnote-backref" href="#python_generalite-fnref:mpy_cross" title="Jump back to footnote 8 in the text">&#8617;</a></p>
+</li>
+<li id="python_generalite-fn:mpy-tools">
+<p><a href="https://docs.micropython.org/en/latest/reference/mpyfiles.html?highlight=mpy">Compilateur MicroPython officiel</a>&#160;<a class="footnote-backref" href="#python_generalite-fnref:mpy-tools" title="Jump back to footnote 9 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div></section><section class="print-page" id="python_type"><h1 id="python_type-les-types">Les types<a class="headerlink" href="#python_type-les-types" title="Permanent link">&para;</a></h1>
+<h2 id="python_type-introduction">Introduction<a class="headerlink" href="#python_type-introduction" title="Permanent link">&para;</a></h2>
+<p>Les types sont des modèles algorithmiques de représentation des données. Ils sont indépendant des langages de programmation.</p>
+<div class="admonition definition">
+<p class="admonition-title">Définition : type théorique</p>
+<p>Un type théorique est défini par :</p>
+<ul>
+<li>un nom</li>
+<li>les opérations qu'il supporte</li>
+</ul>
+</div>
+<p>Les langages de programmation définissent des types de données. Ils sont dérivé des types théorique mais leur implémentation s'en éloigne et/ou apportent des limitations.
+Les langages s'éloignent des types théoriques notamment pour "coller" à la "philosophie" du langage : pour facilité son écriture il faut parfois interdire des usages.
+Les limitations s'explique notamment par le fait que les programme s'exécute sur des machines possédant des limitations physiques. Chaque langage gère ces limites de sa propre façon.</p>
+<p>Les langages gère de façon différentes le typage dans les programmes.</p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p>Python est un langage dont le typage est dynamique et implicite.</p>
+<div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">En python</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#python_type-__codelineno-0-1">1</a></span>
+<span class="normal"><a href="#python_type-__codelineno-0-2">2</a></span>
+<span class="normal"><a href="#python_type-__codelineno-0-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="n">valeur</span> <span class="o">=</span> <span class="kc">True</span> <span class="c1"># valeur est alors dynamiquement typé bool et initialisé à True</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2"></a>
+<a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="n">valeur</span> <span class="o">=</span> <span class="mi">42</span> <span class="c1"># valeur est alors automatique typé int et initialisé à 42.</span>
+</code></pre></div></td></tr></table></div>
+<p>C++ est un langage dont le typage est statique et explicite.</p>
+<div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">En C++</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#python_type-__codelineno-1-1">1</a></span>
+<span class="normal"><a href="#python_type-__codelineno-1-2">2</a></span>
+<span class="normal"><a href="#python_type-__codelineno-1-3">3</a></span>
+<span class="normal"><a href="#python_type-__codelineno-1-4">4</a></span>
+<span class="normal"><a href="#python_type-__codelineno-1-5">5</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="kt">bool</span><span class="w"> </span><span class="n">valeur</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span><span class="w"> </span><span class="c1">// valeur est statiquement typé bool et initialisé à true.    </span>
+<a id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="p">...</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3"></a><span class="n">valeur</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">42</span><span class="p">;</span><span class="w"> </span><span class="c1">// Impossible, il n&#39;est pas possible de changer </span>
+<a id="__codelineno-1-4" name="__codelineno-1-4"></a><span class="w">             </span><span class="c1">// dynamiquement le type d&#39;une variable. </span>
+<a id="__codelineno-1-5" name="__codelineno-1-5"></a><span class="w">             </span><span class="c1">// Il faudra en créer une autre.</span>
+</code></pre></div></td></tr></table></div>
+</div>
+<h2 id="python_type-types-de-bases">Types de bases<a class="headerlink" href="#python_type-types-de-bases" title="Permanent link">&para;</a></h2>
+<p>Parmi les types de bases on retiendra :</p>
+<ul>
+<li>les nombres entiers</li>
+<li>les nombres réels</li>
+<li>les booléen</li>
+<li>les chaînes de caractères</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Type théorique</th>
+<th>Types python</th>
+<th>Opérations</th>
+<th>Exemple python</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Entiers</td>
+<td><code>int</code></td>
+<td>Opérations arithmétiques (+,-,/,* ,//,%) et logique (==, !=, &gt;, &lt;, &lt;=, &gt;=)</td>
+<td><code>a = 5*4/2</code></td>
+</tr>
+<tr>
+<td>Réels</td>
+<td><code>float</code></td>
+<td>Opérations arithmétiques (+,-,/,* ) et logique (==, !=, &gt;, &lt;, &lt;=, &gt;=)</td>
+<td><code>b = 5/3x4.2</code></td>
+</tr>
+<tr>
+<td>Booléen</td>
+<td><code>bool</code></td>
+<td>Opérations booléenne (NOT, OR, AND) et logiques (==, !=)</td>
+<td><code>c = True AND NOT(False)== FALSE</code></td>
+</tr>
+<tr>
+<td>Chaîne</td>
+<td><code>str</code></td>
+<td>Concaténation et opérations logiques (==, !=)</td>
+<td><code>d = "Bon"+"jour"</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="python_type-types-construits">Types construits<a class="headerlink" href="#python_type-types-construits" title="Permanent link">&para;</a></h2>
+<h3 id="python_type-introduction_1">Introduction<a class="headerlink" href="#python_type-introduction_1" title="Permanent link">&para;</a></h3>
+<p>Les types construits sont des types qui agrègent plus plusieurs données. Ces données peuvent être d'un type de base, mais également d'un type construit.
+Nous verrons les listes <code>list</code>, les dictionnaires <code>dict</code>, les tuples <code>tuple</code>.</p>
+<p>Il existe beaucoup d'autres types natifs en python : <code>set</code>, <code>range</code>, <code>bytes</code>, <code>bytearray</code> ...</p>
+<h3 id="python_type-les-tuple-p-uplets">Les <strong>tuple</strong> <em>(p-uplets)</em><a class="headerlink" href="#python_type-les-tuple-p-uplets" title="Permanent link">&para;</a></h3>
+<div class="admonition definition">
+<p class="admonition-title">Definition</p>
+<p>Un <code>tuple</code> est un ensemble de valeurs de types <strong>identiques ou différents</strong>. Chaque élément est <strong>accessible par sa position</strong> dans le <code>tuple</code>.</p>
+</div>
+<p><strong>En python</strong></p>
+<p>Le type <code>tuple</code> est souvent le type retenu pour travailler avec des éléments du type théorique <code>p-uplet</code>.
+Attention, en python le <code>tuple</code> est immuable : une fois défini il est impossible de le modifier. </p>
+<p>Dans le cas ou il serait nécessaire de modifier une valeur, il s'agira de créer un nouveau <code>tuple</code> ou d'utiliser le type <code>list</code>.</p>
+<div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Exemple de tuple en python</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#python_type-__codelineno-2-1">1</a></span>
+<span class="normal"><a href="#python_type-__codelineno-2-2">2</a></span>
+<span class="normal"><a href="#python_type-__codelineno-2-3">3</a></span>
+<span class="normal"><a href="#python_type-__codelineno-2-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="n">personnage</span> <span class="o">=</span> <span class="p">(</span><span class="s2">&quot;Haddock&quot;</span><span class="p">,</span> <span class="s2">&quot;Alcoolique&quot;</span><span class="p">,</span> <span class="mi">45</span><span class="p">)</span> <span class="c1"># Nom, métier, age</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2"></a><span class="n">age</span> <span class="o">=</span> <span class="n">personnage</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3"></a><span class="n">personnage</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Sobre&quot;</span> <span class="c1"># Impossible en python,</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4"></a>                        <span class="c1"># le capitaine reste alcoolique...    </span>
+</code></pre></div></td></tr></table></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Les indices des tuple commencent à 0. </p>
+<p>Le tuple est reconnaissable par ses <strong>parenthèses ( )</strong>.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#python_type-__codelineno-3-1"></a>            perso[0]      perso[1]       perso[2]
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#python_type-__codelineno-3-2"></a>               |              |             |
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#python_type-__codelineno-3-3"></a>perso = (   &quot;Haddock&quot;,     &quot;Capitaine&quot;,    45)
+</code></pre></div>
+</div>
+<h3 id="python_type-les-dictionnaire-dict-p-uplet-nommes">Les dictionnaire <strong>dict</strong> <em>(p-uplet nommés)</em><a class="headerlink" href="#python_type-les-dictionnaire-dict-p-uplet-nommes" title="Permanent link">&para;</a></h3>
+<div class="admonition definition">
+<p class="admonition-title">Definition</p>
+<p>Un <code>dict</code> est un ensemble de valeurs de <strong>types identiques ou différents</strong>. Chaque élément est associé à une <strong>clé par laquelle on accède à la valeur</strong>.</p>
+<p>Autrement dit, un <code>dict</code> est un ensemble de couple "clé -&gt; valeur".</p>
+<p>Les élément d'un <code>dict</code> ne sont pas ordonnés.</p>
+</div>
+<p><strong>En python</strong></p>
+<p>Le type dictionnaire <code>dict</code> est le plus proche du type théorique p-uplet nommé.</p>
+<div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Exemple de dictionnaire en Python</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#python_type-__codelineno-4-1">1</a></span>
+<span class="normal"><a href="#python_type-__codelineno-4-2">2</a></span>
+<span class="normal"><a href="#python_type-__codelineno-4-3">3</a></span>
+<span class="normal"><a href="#python_type-__codelineno-4-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1"></a><span class="n">personnage</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;nom&quot;</span> <span class="p">:</span> <span class="s2">&quot;Haddock&quot;</span><span class="p">,</span> <span class="s2">&quot;metier&quot;</span> <span class="p">:</span> <span class="s2">&quot;Alcoolique&quot;</span><span class="p">,</span> <span class="s2">&quot;age&quot;</span> <span class="p">:</span> <span class="mi">45</span><span class="p">}</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2"></a><span class="n">age</span> <span class="o">=</span> <span class="n">personnage</span><span class="p">[</span><span class="s2">&quot;age&quot;</span><span class="p">]</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3"></a><span class="n">personnage</span><span class="p">[</span><span class="s2">&quot;metier&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;capitaine&quot;</span> <span class="c1"># Avec les dictionnaires en python,</span>
+<a id="__codelineno-4-4" name="__codelineno-4-4"></a>                                    <span class="c1"># le capitaine devient sobre ...</span>
+</code></pre></div></td></tr></table></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>On accède à une valeur grâce à sa clé. </p>
+<p>Le tuple est reconnaissable par ses <strong>accolades { }</strong>.</p>
+<p>En python la clé permettant d'accéder à une valeur doit être <strong>immuable</strong> : <code>int</code>, <code>float</code>, <code>tuple</code>, <code>str</code>. </p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#python_type-__codelineno-5-1"></a>                perso[&quot;nom&quot;]         perso[&quot;metier&quot;]    perso[&quot;age&quot;]
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#python_type-__codelineno-5-2"></a>                    |                        |              |
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#python_type-__codelineno-5-3"></a>perso = {&quot;nom&quot; : &quot;Haddock&quot;, &quot;metier&quot; : &quot;capitaine&quot;, &quot;age&quot; : 45}
+</code></pre></div>
+</div>
+<h3 id="python_type-les-listes-list-tableau">Les listes <strong>list</strong> <em>(tableau)</em><a class="headerlink" href="#python_type-les-listes-list-tableau" title="Permanent link">&para;</a></h3>
+<div class="admonition definition">
+<p class="admonition-title">Definition</p>
+<p>Les éléments d'une <code>list</code> peuvent être de même type ou de type différent  <br />
+Une <code>list</code> possède une taille qui correspond au nombre d'éléments présents dans la <code>list</code>.
+Chaque élément est <strong>accessible par un indice</strong> qui correspond à son emplacement dans la <code>list</code>.</p>
+</div>
+<p><strong>En python</strong></p>
+<p>Le type <code>list</code> est ce qui se rapproche le plus du tableau théorique en python. Le type <code>list</code> de python dépasse largement la définition théorique du tableau où les éléments y sont de même type par exemple.</p>
+<div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Exemple de list en Python</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#python_type-__codelineno-6-1"> 1</a></span>
+<span class="normal"><a href="#python_type-__codelineno-6-2"> 2</a></span>
+<span class="normal"><a href="#python_type-__codelineno-6-3"> 3</a></span>
+<span class="normal"><a href="#python_type-__codelineno-6-4"> 4</a></span>
+<span class="normal"><a href="#python_type-__codelineno-6-5"> 5</a></span>
+<span class="normal"><a href="#python_type-__codelineno-6-6"> 6</a></span>
+<span class="normal"><a href="#python_type-__codelineno-6-7"> 7</a></span>
+<span class="normal"><a href="#python_type-__codelineno-6-8"> 8</a></span>
+<span class="normal"><a href="#python_type-__codelineno-6-9"> 9</a></span>
+<span class="normal"><a href="#python_type-__codelineno-6-10">10</a></span>
+<span class="normal"><a href="#python_type-__codelineno-6-11">11</a></span>
+<span class="normal"><a href="#python_type-__codelineno-6-12">12</a></span>
+<span class="normal"><a href="#python_type-__codelineno-6-13">13</a></span>
+<span class="normal"><a href="#python_type-__codelineno-6-14">14</a></span>
+<span class="normal"><a href="#python_type-__codelineno-6-15">15</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1"></a><span class="c1"># Création d&#39;une list de 3 chaîne vide</span>
+<a id="__codelineno-6-2" name="__codelineno-6-2"></a><span class="n">taille_tab</span> <span class="o">=</span> <span class="mi">3</span>
+<a id="__codelineno-6-3" name="__codelineno-6-3"></a><span class="n">top3_prenom_fille</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="n">taille_tab</span>     
+<a id="__codelineno-6-4" name="__codelineno-6-4"></a>
+<a id="__codelineno-6-5" name="__codelineno-6-5"></a><span class="c1"># ou, si on veut une list initialisé</span>
+<a id="__codelineno-6-6" name="__codelineno-6-6"></a><span class="n">top3_prenom_garçon</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Jo&quot;</span><span class="p">,</span> <span class="s2">&quot;Jack&quot;</span><span class="p">,</span> <span class="s2">&quot;William&quot;</span><span class="p">]</span>  
+<a id="__codelineno-6-7" name="__codelineno-6-7"></a>
+<a id="__codelineno-6-8" name="__codelineno-6-8"></a><span class="c1"># ou une list vide</span>
+<a id="__codelineno-6-9" name="__codelineno-6-9"></a><span class="n">l_vide</span> <span class="o">=</span> <span class="p">[]</span>                                     
+<a id="__codelineno-6-10" name="__codelineno-6-10"></a>
+<a id="__codelineno-6-11" name="__codelineno-6-11"></a><span class="n">garcon</span> <span class="o">=</span>  <span class="n">top3_prenom_garcon</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>   <span class="c1"># garcon contiendra &quot;Jack&quot;</span>
+<a id="__codelineno-6-12" name="__codelineno-6-12"></a><span class="n">top3_prenom_fille</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Barbie&quot;</span> <span class="c1"># top3_prenom_fille -&gt; [&quot;Barbie&quot;, &quot;Emma&quot;, &quot;Louise&quot;]</span>
+<a id="__codelineno-6-13" name="__codelineno-6-13"></a><span class="n">top3_prenom_garçon</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Awrell&quot;</span> <span class="c1"># INTERDIT !!! la liste ne contient que 3 éléments</span>
+<a id="__codelineno-6-14" name="__codelineno-6-14"></a>
+<a id="__codelineno-6-15" name="__codelineno-6-15"></a><span class="n">taille_tableau</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">top3_prenom_garçon</span><span class="p">)</span> <span class="c1"># taille_tableau -&gt; 3</span>
+</code></pre></div></td></tr></table></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Les indices d'une <code>list</code> commencent à 0. </p>
+<p>La <code>list</code> est reconnaissable par ses <strong>crochets [ ]</strong>.</p>
+<p>La fonction <code>len()</code> permet de connaître le nombre d'élément dans une <code>list</code></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#python_type-__codelineno-7-1"></a>            perso[0]      perso[1]       perso[2]
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#python_type-__codelineno-7-2"></a>               |              |             |
+<a id="__codelineno-7-3" name="__codelineno-7-3" href="#python_type-__codelineno-7-3"></a>perso = [   &quot;Haddock&quot;,     &quot;Capitaine&quot;,    45]
+</code></pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Il est possible d'ajouter des éléments à une <code>list</code> grace à la méthode <code>append()</code></p>
+<div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Append</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#python_type-__codelineno-8-1">1</a></span>
+<span class="normal"><a href="#python_type-__codelineno-8-2">2</a></span>
+<span class="normal"><a href="#python_type-__codelineno-8-3">3</a></span>
+<span class="normal"><a href="#python_type-__codelineno-8-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1"></a><span class="n">l</span> <span class="o">=</span> <span class="p">[]</span>
+<a id="__codelineno-8-2" name="__codelineno-8-2"></a><span class="n">l</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;a&quot;</span><span class="p">)</span>
+<a id="__codelineno-8-3" name="__codelineno-8-3"></a><span class="n">l</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;bb&quot;</span><span class="p">)</span>
+<a id="__codelineno-8-4" name="__codelineno-8-4"></a><span class="n">l</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">42</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+<p>La list (comme le tuple) est itérable. On peut parcourir une list de la façon suivante : </p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="python_type-__tabbed_1_1" name="python_type-__tabbed_1" type="radio" /><input id="python_type-__tabbed_1_2" name="python_type-__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="python_type-__tabbed_1_1">Code</label><label for="python_type-__tabbed_1_2">Affichage</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Itération sur les éléments d'une list</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#python_type-__codelineno-9-1">1</a></span>
+<span class="normal"><a href="#python_type-__codelineno-9-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1"></a><span class="k">for</span> <span class="n">elt</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">l</span><span class="p">):</span>
+<a id="__codelineno-9-2" name="__codelineno-9-2"></a>    <span class="nb">print</span><span class="p">(</span><span class="n">elt</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#python_type-__codelineno-10-1"></a>a
+<a id="__codelineno-10-2" name="__codelineno-10-2" href="#python_type-__codelineno-10-2"></a>bb
+<a id="__codelineno-10-3" name="__codelineno-10-3" href="#python_type-__codelineno-10-3"></a>42
+</code></pre></div>
+</div>
+</div>
+</div>
+</div>
+<h2 id="python_type-a-retenir">A retenir<a class="headerlink" href="#python_type-a-retenir" title="Permanent link">&para;</a></h2>
+<p>Python est un langage dont le typage est dynamique et implicite : il est décidé automatiquement au moment de l'affectation par l’interpréteur. </p>
+<p>Il est possible de connaître le type d'un élément :</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="python_type-__tabbed_2_1" name="python_type-__tabbed_2" type="radio" /><input id="python_type-__tabbed_2_2" name="python_type-__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="python_type-__tabbed_2_1">Code</label><label for="python_type-__tabbed_2_2">Affichage</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#python_type-__codelineno-11-1">1</a></span>
+<span class="normal"><a href="#python_type-__codelineno-11-2">2</a></span>
+<span class="normal"><a href="#python_type-__codelineno-11-3">3</a></span>
+<span class="normal"><a href="#python_type-__codelineno-11-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1"></a><span class="n">a</span> <span class="o">=</span> <span class="s2">&quot;abc&quot;</span>
+<a id="__codelineno-11-2" name="__codelineno-11-2"></a><span class="n">b</span> <span class="o">=</span> <span class="mi">1</span>
+<a id="__codelineno-11-3" name="__codelineno-11-3"></a><span class="n">c</span> <span class="o">=</span> <span class="kc">True</span>
+<a id="__codelineno-11-4" name="__codelineno-11-4"></a><span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">a</span><span class="p">),</span> <span class="nb">type</span><span class="p">(</span><span class="n">b</span><span class="p">),</span> <span class="nb">type</span><span class="p">(</span><span class="n">c</span><span class="p">))</span>
+</code></pre></div></td></tr></table></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#python_type-__codelineno-12-1"></a>&lt;class &#39;str&#39;&gt; &lt;class &#39;int&#39;&gt; &lt;class &#39;bool&#39;&gt;
+</code></pre></div>
+</div>
+</div>
+</div>
+<p><strong>Type de base</strong></p>
+<table>
+<thead>
+<tr>
+<th>Type théorique</th>
+<th>Types python</th>
+<th>Opérations</th>
+<th>Exemple python</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Entiers</td>
+<td><code>int</code></td>
+<td>Opérations arithmétiques (+,-,/,* ,//,%) et logique (==, !=, &gt;, &lt;, &lt;=, &gt;=)</td>
+<td><code>a = 5*4/2</code></td>
+</tr>
+<tr>
+<td>Réels</td>
+<td><code>float</code></td>
+<td>Opérations arithmétiques (+,-,/,* ) et logique (==, !=, &gt;, &lt;, &lt;=, &gt;=)</td>
+<td><code>b = 5/3x4.2</code></td>
+</tr>
+<tr>
+<td>Booléen</td>
+<td><code>bool</code></td>
+<td>Opérations booléenne (NOT, OR, AND) et logiques (==, !=)</td>
+<td><code>c = True AND NOT(False)== FALSE</code></td>
+</tr>
+<tr>
+<td>Chaîne</td>
+<td><code>str</code></td>
+<td>Concaténation et opérations logiques (==, !=)</td>
+<td><code>d = "Bon"+"jour"</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Type construit</strong></p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Type python</th>
+<th>Initialisation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Tuple</strong></td>
+<td><code>tuple</code></td>
+<td><code>val = ("haddock", "capitaine", 42)</code></td>
+</tr>
+<tr>
+<td><strong>Dictionnaire</strong></td>
+<td><code>dict</code></td>
+<td><code>val = {"nom":"haddock", "metier":"capitaine", age : 42}</code></td>
+</tr>
+<tr>
+<td><strong>Liste</strong></td>
+<td><code>list</code></td>
+<td><code>val = ["haddock", "capitaine", 42]</code></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Mise à jour</th>
+<th>Accès au métier</th>
+<th>Ajouter un élément</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Tuple</strong></td>
+<td><em>Impossible</em></td>
+<td><code>valeur = val[1]</code></td>
+<td><em>Impossible</em></td>
+</tr>
+<tr>
+<td><strong>Dictionnaire</strong></td>
+<td><code>val["age"] = 51</code></td>
+<td><code>valeur = val["metier"]</code></td>
+<td><code>val["barbu"] =True</code></td>
+</tr>
+<tr>
+<td><strong>Liste</strong></td>
+<td><code>val[2] = 51</code></td>
+<td><code>valeur = val[1]</code></td>
+<td><code>val.append(True)</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Les <em>list</em></strong></p>
+<p>Il est possible d'itérer sur les éléments d'une <code>list</code> :</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="python_type-__tabbed_3_1" name="python_type-__tabbed_3" type="radio" /><input id="python_type-__tabbed_3_2" name="python_type-__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="python_type-__tabbed_3_1">Code</label><label for="python_type-__tabbed_3_2">Affichage</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#python_type-__codelineno-13-1">1</a></span>
+<span class="normal"><a href="#python_type-__codelineno-13-2">2</a></span>
+<span class="normal"><a href="#python_type-__codelineno-13-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1"></a><span class="n">ma_liste</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;a&quot;</span><span class="p">,</span> <span class="s2">&quot;bb&quot;</span><span class="p">,</span> <span class="mi">42</span><span class="p">]</span>
+<a id="__codelineno-13-2" name="__codelineno-13-2"></a><span class="k">for</span> <span class="n">elt</span> <span class="ow">in</span> <span class="n">ma_liste</span><span class="p">:</span>
+<a id="__codelineno-13-3" name="__codelineno-13-3"></a>    <span class="nb">print</span><span class="p">(</span><span class="n">elt</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#python_type-__codelineno-14-1"></a>a
+<a id="__codelineno-14-2" name="__codelineno-14-2" href="#python_type-__codelineno-14-2"></a>bb
+<a id="__codelineno-14-3" name="__codelineno-14-3" href="#python_type-__codelineno-14-3"></a>42
+</code></pre></div>
+</div>
+</div>
+</div>
+<p>Il est possible de connaître le nombre d'élément dans une <code>liste</code> :</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="python_type-__tabbed_4_1" name="python_type-__tabbed_4" type="radio" /><input id="python_type-__tabbed_4_2" name="python_type-__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="python_type-__tabbed_4_1">Code</label><label for="python_type-__tabbed_4_2">Affichage</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#python_type-__codelineno-15-1">1</a></span>
+<span class="normal"><a href="#python_type-__codelineno-15-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1"></a><span class="n">ma_liste</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;a&quot;</span><span class="p">,</span> <span class="s2">&quot;bb&quot;</span><span class="p">,</span> <span class="mi">42</span><span class="p">]</span>
+<a id="__codelineno-15-2" name="__codelineno-15-2"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Taille : &quot;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">ma_liste</span><span class="p">))</span>
+</code></pre></div></td></tr></table></div>
+</div>
+<div class="tabbed-block">
+<p>affichera <code>3</code></p>
+</div>
+</div>
+</div>
+<p>Il est possible de créer un "tableau" de valeur pour itérer sur une <code>list</code>.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="python_type-__tabbed_5_1" name="python_type-__tabbed_5" type="radio" /><input id="python_type-__tabbed_5_2" name="python_type-__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="python_type-__tabbed_5_1">Code</label><label for="python_type-__tabbed_5_2">Affichage</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#python_type-__codelineno-16-1">1</a></span>
+<span class="normal"><a href="#python_type-__codelineno-16-2">2</a></span>
+<span class="normal"><a href="#python_type-__codelineno-16-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1"></a><span class="n">ma_liste</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;a&quot;</span><span class="p">,</span> <span class="s2">&quot;bb&quot;</span><span class="p">,</span> <span class="mi">42</span><span class="p">]</span>
+<a id="__codelineno-16-2" name="__codelineno-16-2"></a><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
+<a id="__codelineno-16-3" name="__codelineno-16-3"></a>    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">ma_liste</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+</code></pre></div></td></tr></table></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#python_type-__codelineno-17-1"></a>0 a
+<a id="__codelineno-17-2" name="__codelineno-17-2" href="#python_type-__codelineno-17-2"></a>1 bb
+<a id="__codelineno-17-3" name="__codelineno-17-3" href="#python_type-__codelineno-17-3"></a>2 42
+</code></pre></div>
+</div>
+</div>
+</div>
+<h2 id="python_type-la-gestion-de-la-memoire-par-python">La gestion de la mémoire par python<a class="headerlink" href="#python_type-la-gestion-de-la-memoire-par-python" title="Permanent link">&para;</a></h2>
+<p>Python (et Micropython) gère la mémoire à l'aide d'un <strong>ramasse-miettes</strong> (<em>garbage collector</em> en Anglais). 
+En python, les variables contienne l'adresse des objets vers lesquels ils pointent. Chaque objet possède un compteur de référence. Lorsque l'objet est pointé par une nouvelle variable, le compteur est incrémenté, lorsqu'une variable est supprimé, le compteur est décrémenté. </p>
+<p>Lorsque l'interpréteur est inactif, c'est à dire pendant les appels à <code>sleep()</code> par exemple, la machine virtuelle  (ou Virtual Machine <strong>VM</strong>) visite toutes les objets et lorsqu'il trouve un objet dont le compteur de référence vaut 0, il libère la mémoire utilisée pour stocker l'objet.</p>
+<p>En cas de problème de saturation de la mémoire, on peut forcer la VM python à ramasser les miettes en appelant la fonction <code>gc_collect()</code></p></section><section class="print-page" id="python_objet"><h1 id="python_objet-python-et-lobjet">Python et l'objet<a class="headerlink" href="#python_objet-python-et-lobjet" title="Permanent link">&para;</a></h1>
+<h2 id="python_objet-introduction">Introduction<a class="headerlink" href="#python_objet-introduction" title="Permanent link">&para;</a></h2>
+<p>Considérons deux aspects des traitements informatiques:</p>
+<ul>
+<li>l'information : c'est ce qui caractérise l'état de la machine </li>
+<li>les traitements : les traitements vont permettre de passer d'un état initial à un état final</li>
+</ul>
+<pre class="mermaid"><code>graph LR
+  A([Etat A])
+  B([Etat B])
+
+  A -- "Traitements" --&gt; B</code></pre>
+<h2 id="python_objet-la-programmation-imperative">La programmation impérative<a class="headerlink" href="#python_objet-la-programmation-imperative" title="Permanent link">&para;</a></h2>
+<p>On connaît les variables qui symbolisent des informations.
+On connaît également l'opérateur d'affectation qui permet de modifier l'état d'une variable en fonction de :</p>
+<ul>
+<li>Une ou plusieurs variable</li>
+<li>Un opérateur ou une fonction</li>
+</ul>
+<p>Une variable se définit par :</p>
+<ul>
+<li>son type</li>
+<li>son nom</li>
+</ul>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#python_objet-__codelineno-0-1">1</a></span>
+<span class="normal"><a href="#python_objet-__codelineno-0-2">2</a></span>
+<span class="normal"><a href="#python_objet-__codelineno-0-3">3</a></span>
+<span class="normal"><a href="#python_objet-__codelineno-0-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="n">a</span> <span class="o">=</span> <span class="mi">10</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="n">b</span> <span class="o">=</span> <span class="mi">9</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="n">c</span> <span class="o">=</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="c1"># c symbolise le contenu d&#39;un espace mémoire contenant la valeur 19</span>
+</code></pre></div></td></tr></table></div>
+<p><a class="glightbox" href="../img/etat_imperatif.drawio.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Etapes" src="../img/etat_imperatif.drawio.png" /></a></p>
+<div class="admonition definition">
+<p class="admonition-title">Programmation impérative</p>
+<p>L'état de la machine est caractérisée par :</p>
+<ul>
+<li>le contenu des variables </li>
+<li>l'instruction en cours de traitement (pointeur d'instruction)</li>
+</ul>
+<p>Les traitements sont :</p>
+<ul>
+<li>les instructions en cela que le passage d'une instruction à l'autre modifie le pointeur d'instruction</li>
+<li>l'opérateur d'affectation</li>
+</ul>
+</div>
+<h2 id="python_objet-la-programmation-orientee-objet">La programmation orientée objet<a class="headerlink" href="#python_objet-la-programmation-orientee-objet" title="Permanent link">&para;</a></h2>
+<div class="admonition definition">
+<p class="admonition-title">Programmation orienté objet</p>
+<p>L'état de la machine est caractérisée par :</p>
+<ul>
+<li>les relations entre les objets</li>
+<li>l'état des attributs des objets</li>
+</ul>
+<p>Les traitements sont :</p>
+<ul>
+<li>Les méthodes permettant d'accéder aux attributs d'un objet.</li>
+</ul>
+</div>
+<h2 id="python_objet-lobjet-en-python">L'objet en python'<a class="headerlink" href="#python_objet-lobjet-en-python" title="Permanent link">&para;</a></h2></section><h1 class='nav-section-title-end'>Ended: Python</h1>
+                        <h1 class='nav-section-title' id='section-microbit'>
+                            Microbit <a class='headerlink' href='#section-microbit' title='Permanent link'>↵</a>
+                        </h1>
+                        <h1 class='nav-section-title-end'>Ended: Microbit</h1><section class="print-page" id="remerciements"><p>🙏 <em>Merci à David Roche d'avoir partagé son travail</em></p>
+<p>🙏 <em>Merci à Patrice Pérot d'avoir partagé son travail</em></p>
+<p>🙏 <em>Merci à Maxime Fourny d'avoir partagé son travail</em></p></section></div>
+
+
+
+
+
+                
+
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Retour en haut de la page
+          </button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a> Benoit Delaup
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "/formation-python-snt/", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.51198bba.min.js"></script>
+      
+        <script src="../js/print-site.js"></script>
+      
+        <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+      
+        <script src="../site-js/mathjax.js"></script>
+      
+        <script src="../site-js/tablesort.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
