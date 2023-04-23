@@ -17,13 +17,15 @@ theme:
     name: material
     language: fr
     features:
-      - navigation.instant
-      - navigation.tracking
-      - navigation.tabs
-      - navigation.top
-      - navigation.sections
-      - content.code.copy
-      - content.action.edit
+        - navigation.tabs
+        - navigation.sections
+        - toc.integrate
+        - navigation.top
+        - search.suggest
+        - search.highlight
+        - content.tabs.link
+        - content.code.annotation
+        - content.code.copy   
     icon:
       edit: material/pencil 
       view: material/eye
