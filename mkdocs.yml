@@ -3,13 +3,13 @@ site_name: Python & Microbit
 # site_dir: public
 
 
-site_url: https://bdelaup.github.io/formation-python-snt/
-site_description: Formation Python - Microbit & SNT
-site_author: B. Delaup 
+#site_url: https://bdelaup.github.io/formation-python-snt/
+#site_description: Formation Python - Microbit & SNT
+#site_author: B. Delaup 
 
 # repo_name: NSI Jules Haag
-repo_url: https://github.com/bdelaup/formation-python-snt
-edit_uri: "https://github.com/bdelaup/formation-python-snt/edit/main/docs/"
+#repo_url: https://github.com/bdelaup/formation-python-snt
+#edit_uri: "https://github.com/bdelaup/formation-python-snt/edit/main/docs/"
 
 copyright: <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a> Benoit Delaup
 
@@ -26,6 +26,7 @@ theme:
         - content.tabs.link
         - content.code.annotation
         - content.code.copy   
+        
     icon:
       edit: material/pencil 
       view: material/eye
