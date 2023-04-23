@@ -1,15 +1,15 @@
 site_name: Python & Microbit
-# site_url: https://bdelaup.gitlab.io/
+# site_url: https://bdelaup.github.io/
 # site_dir: public
 
 
-site_url: https://bdelaup.gitlab.io/formation-python-snt/
+site_url: https://bdelaup.github.io/formation-python-snt/
 site_description: Formation Python - Microbit & SNT
 site_author: B. Delaup 
 
 # repo_name: NSI Jules Haag
-repo_url: https://gitlab.com/bdelaup/formation-python-snt
-edit_uri: "https://gitlab.com/bdelaup/formation-python-snt/edit/main/docs/"
+repo_url: https://github.com/bdelaup/formation-python-snt
+edit_uri: "https://github.com/bdelaup/formation-python-snt/edit/main/docs/"
 
 copyright: <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a> Benoit Delaup
 
@@ -27,29 +27,6 @@ theme:
     icon:
       edit: material/pencil 
       view: material/eye
-
-    # logo: site-img/nsi_light.png
-    # favicon: site-img/nsi_light.png
-
-    # palette: 
-    #   # primary: deep purple
-    #   # accent: green
-      # - scheme: default
-      #   toggle:
-      #     icon: material/toggle-switch-off-outline 
-
-
-      #     name: Switch to dark mode
-      # - scheme: slate 
-
-
-      #   toggle:
-      #     icon: material/toggle-switch
-      #     name: Switch to light mode
-      
-    # Don't include MkDocs' JavaScript
-    # include_search_page: false
-    # search_index_only: true
     custom_dir: overrides
 
 nav:
@@ -71,13 +48,6 @@ extra_css:
     - site-styles/admonitions.css
     - site-styles/formatting.css
     - site-styles/code.css
-
-# extra_javascript:
-#   - https://cdn.jsdelivr.net/gh/rod2ik/cdn@main/mkdocs/javascripts/mkdocs-graphviz.js
-# plugins:
-#     - search
-# #     - minify:
-# #         minify_html: true
 
 plugins:
     - search
@@ -101,34 +71,6 @@ plugins:
         include_css: true
         enabled: true
         exclude:
-    # - roamlinks 
-
-    # - drawio_file
-    # - encryptcontent:
-    #     title_prefix: '☠️'
-    #     summary: '☠️ Accés Reservé ☠️'
-    #     placeholder: '************'
-    #     decryption_failure_message: 'Try again ...'
-    #     encryption_info_message: 'Try :'
-    #     remember_password: True
-    #     default_expire_delay: 1
-    #     mermaid2: True
-    #     arithmatex: True
-    #     hljs: True
-    # - offline
-
-        # loop: false
-        # effect: zoom
-        # width: 100%
-        # height: auto
-        # zoomable: true
-        # draggable: false
-    # - enumerate-headings:
-    #     toc_depth: 0 
-    #     strict: true
-    #     increment_across_pages: true
-    #     exclude:
-    #       - index.md
 
 markdown_extensions:
   - pymdownx.caret
